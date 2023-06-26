@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+  char metin[100];
+  char ch;
+  char adet=0;
+printf("metin giriniz");
+gets(metin);
+printf("karakter giriniz");
+scanf("%c",ch);
+int i
+for(i=0;metin[i]!='\0';i++){
+if(metin[i]==ch);
+adet++;
+}
+printf("%c harfinden %d tane var",ch,adet);
+}
